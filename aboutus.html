@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Informations - SPORT WORLD</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="fas fa-bars fa-lg"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/ze.jpg" class="rounded float-left" height="50" width="60" alt="Logo SPORT WORLD">
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
+                <li class="nav-item"><a class="nav-link menu-link" href="./boutique.html"><img src="./img/ballon-foot.jpg" class="menu-football" alt="Ballon"> Boutique</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+            <span class="navbar-text">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login
+                </button>
+            </span>
+        </div>
+    </div>
+</nav>
+
+<main class="container information-page">
+
+    <section class="info-hero">
+        <img src="./img/sport.png" alt="Magasin SPORT WORLD">
+        <div>
+            <h1>À propos de SPORT WORLD</h1>
+            <p>Une boutique familiale fondée à Paris, spécialisée dans l'équipement sportif depuis 2014.</p>
+        </div>
+    </section>
+
+    <div class="row">
+
+        <div class="col-12 col-md-6">
+            <article class="info-card">
+                <img src="./img/ze.jpg" alt="Boutique SPORT WORLD">
+                <div>
+                    <h2>Notre histoire</h2>
+                    <p>SPORT WORLD a ouvert ses portes en 2014 dans le 11e arrondissement de Paris. À l'origine, un petit local de 40 m² tenu par deux passionnés de football et de basket.</p>
+                    <p>Aujourd'hui, notre boutique physique fait 180 m² et nous expédions chaque semaine plus de 300 colis dans toute la France.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <article class="info-card">
+                <img src="./img/ballon-foot.jpg" alt="Sélection de produits">
+                <div>
+                    <h2>Ce que nous vendons</h2>
+                    <p>Nous proposons un choix resserré : environ 450 références réparties sur quatre univers — football, tennis, basket et équipement du sportif.</p>
+                    <p>Nous privilégions les marques fiables et les modèles que nous testons nous-mêmes en club avant de les proposer en boutique.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <article class="info-card">
+                <img src="./img/sac-sport.jpg" alt="Équipe de la boutique">
+                <div>
+                    <h2>L'équipe</h2>
+                    <p>Nous sommes six : deux gérants, trois vendeurs-conseil et une personne à l'expédition. Tous pratiquent un sport en club le week-end.</p>
+                    <p>Ça nous permet de vous orienter concrètement, pas juste de vous vendre le modèle le plus cher.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <article class="info-card">
+                <img src="./img/maillot-foot.jpg" alt="Service client">
+                <div>
+                    <h2>Infos pratiques</h2>
+                    <p>Adresse : 10 rue des Sports, 75011 Paris</p>
+                    <p>Horaires : du mardi au samedi, 10 h – 19 h</p>
+                    <p>Téléphone : 01 45 67 89 10</p>
+                    <p>E-mail : contact@sportworld.fr</p>
+                    <p>Retours : 30 jours, sur présentation du ticket</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="col-12">
+            <article class="info-text">
+                <h2>Nos engagements</h2>
+                <p>
+                    Livraison sous 48 h en France métropolitaine. Retour gratuit sous 30 jours.
+                    Paiement en trois fois sans frais à partir de 100 € d'achat.
+                    Notre service client répond par téléphone ou par e-mail du mardi au samedi.
+                </p>
+                <div class="info-list">
+                    <div>Expédition en 24 h ouvrées</div>
+                    <div>Retours gratuits sous 30 jours</div>
+                    <div>Paiement sécurisé ou 3x sans frais</div>
+                    <div>Conseil par téléphone ou e-mail</div>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</main>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document"><div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Connexion</h5>
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group"><label for="info-email">Adresse e-mail</label><input type="email" id="info-email" class="form-control"></div>
+                <div class="form-group"><label for="info-password">Mot de passe</label><input type="password" id="info-password" class="form-control"></div>
+                <button type="button" class="btn btn-success">Se connecter</button>
+            </form>
+        </div>
+    </div></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

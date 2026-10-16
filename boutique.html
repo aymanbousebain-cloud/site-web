@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boutique - SPORT WORLD</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet"
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="fas fa-bars fa-lg"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/ze.jpg" class="rounded float-left" height="50" width="60" alt="Maillot SPORT WORLD">
+        </a>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
+                <li class="nav-item active"><a class="nav-link menu-link" href="./boutique.html"><img src="./img/zz.jpg" class="menu-football" alt="Ballon de football"> Boutique</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+            <span class="navbar-text">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login
+                </button>
+            </span>
+        </div>
+    </div>
+</nav>
+
+<main class="container menu-page">
+
+    <div class="menu-categories">
+        <a href="#football-boutique">Football</a>
+        <a href="#tennis-boutique">Tennis</a>
+        <a href="#basket-boutique">Basket</a>
+        <a href="#equipement-boutique">Équipement</a>
+    </div>
+
+    <section id="football-boutique" class="menu-section">
+        <h2>Football</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/ballon-foot.jpg" alt="Ballon de football">
+                    <h3>Ballon de football</h3>
+                    <p>Taille 5, cousu main, homologué compétition.</p>
+                    <p class="price">29,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/chaussures-foot.jpg" alt="Chaussures de football">
+                    <h3>Chaussures à crampons</h3>
+                    <p>Semelle FG pour terrain naturel. Du 38 au 47.</p>
+                    <p class="price">89,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/maillot-foot.jpg" alt="Maillot de football">
+                    <h3>Maillot d'équipe</h3>
+                    <p>Tissu respirant, flocage possible. Tailles S à XXL.</p>
+                    <p class="price">49,99 €</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tennis-boutique" class="menu-section">
+        <h2>Tennis</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/raquette-tennis.jpg" alt="Raquette de tennis">
+                    <h3>Raquette de tennis</h3>
+                    <p>Tamis 645 cm², poids 300 g. Idéale pour joueurs intermédiaires.</p>
+                    <p class="price">79,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/balles-tennis.jpg" alt="Balles de tennis">
+                    <h3>Balles de tennis (x3)</h3>
+                    <p>Balles pressurisées, adaptées terre battue et dur.</p>
+                    <p class="price">6,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/chaussures-tennis.jpg" alt="Chaussures de tennis">
+                    <h3>Chaussures de court</h3>
+                    <p>Maintien latéral renforcé. Semelle adaptée surface dure.</p>
+                    <p class="price">74,99 €</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="basket-boutique" class="menu-section">
+        <h2>Basket</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/ballon-basket.jpg" alt="Ballon de basket">
+                    <h3>Ballon de basket</h3>
+                    <p>Taille 7, grip renforcé, usage intérieur et extérieur.</p>
+                    <p class="price">34,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/chaussures-basket.jpg" alt="Chaussures de basket">
+                    <h3>Chaussures montantes</h3>
+                    <p>Maintien de cheville et amorti renforcé à l'avant-pied.</p>
+                    <p class="price">99,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/maillot-basket.jpg" alt="Maillot de basket">
+                    <h3>Maillot respirant</h3>
+                    <p>Coupe large, tissu léger pour matchs intensifs.</p>
+                    <p class="price">44,99 €</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipement-boutique" class="menu-section">
+        <h2>Équipement</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/sac-sport.jpg" alt="Sac de sport">
+                    <h3>Sac de sport</h3>
+                    <p>35 L, compartiment chaussures séparé.</p>
+                    <p class="price">39,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/casquette.jpg" alt="Casquette de sport">
+                    <h3>Casquette de sport</h3>
+                    <p>Anti-transpiration, taille réglable.</p>
+                    <p class="price">19,99 €</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="menu-box">
+                    <img src="./img/gourde.jpg" alt="Gourde isotherme">
+                    <h3>Gourde isotherme</h3>
+                    <p>750 ml, garde le froid 12 h.</p>
+                    <p class="price">14,99 €</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document"><div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="loginModalLabel">Connexion</h5>
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group"><label for="menu-email">Adresse e-mail</label><input type="email" id="menu-email" class="form-control"></div>
+                <div class="form-group"><label for="menu-password">Mot de passe</label><input type="password" id="menu-password" class="form-control"></div>
+                <button type="button" class="btn btn-success">Se connecter</button>
+            </form>
+        </div>
+    </div></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
